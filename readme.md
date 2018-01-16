@@ -20,6 +20,6 @@ https://blog.whatgeek.com.pt/2017/05/raspberry-pi-photo-booth-with-social-networ
 
 ###### Some images of the project ######
 ![Raspberry PI Photobooth Front]
-(http://blog.whatgeek.com.pt/wp-content/uploads/2017/03/IMG_20160607_232200.jpg)
+(https://blog.whatgeek.com.pt/wp-content/uploads/2017/03/IMG_20160607_232200.jpg)
 
 
