@@ -19,7 +19,6 @@ More information on this project ca be found at
 https://blog.whatgeek.com.pt/2017/05/raspberry-pi-photo-booth-with-social-networks-sharing
 
 ###### Some images of the project ######
-![Raspberry PI Photobooth Front]
-(https://blog.whatgeek.com.pt/wp-content/uploads/2017/03/IMG_20160607_232200.jpg)
+![Raspberry PI Photobooth Front](https://blog.whatgeek.com.pt/wp-content/uploads/2017/03/IMG_20160607_232200.jpg)
 
 
