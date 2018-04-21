@@ -210,7 +210,7 @@ def displayPreview(imgName):
 		((img.size[1] + 15) // 16) * 16,
 	))
 	padding.paste(img, (0,0))
-	ov = camera.add_overlay(padding.tostring(), size=img.size)
+	ov = camera.add_overlay(padding.tobytes(), size=img.size)
 	ov.layer = 1
 
 
@@ -227,7 +227,7 @@ def displayPreview3(imgName):
 		((img.size[1] + 15) // 16) * 16,
 	))
 	padding.paste(img, (0,0))
-	ov = camera.add_overlay(padding.tostring(), size=img.size)
+	ov = camera.add_overlay(padding.tobytes(), size=img.size)
 	ov.alpha = 150
 	ov.layer = 3
 	return ov
@@ -243,7 +243,7 @@ def overlaysn():
 
 	# Paste the overlay
 	pad.paste(imgsn, (0,0))
-	ov = camera.add_overlay(pad.tostring(), size=imgsn.size)
+	ov = camera.add_overlay(pad.tobytes(), size=imgsn.size)
 	ov.alpha = 100
 	ov.layer = 3	
 	return ov
@@ -263,7 +263,7 @@ def overlayCounter():
 	
 	# paste the overlay - 3
 	pad.paste(img1, (0,0))
-	ov = camera.add_overlay(pad.tostring(), size=img1.size)
+	ov = camera.add_overlay(pad.tobytes(), size=img1.size)
 	ov.alpha = 200
 	# layer is 3 because camera preview is on layer 2
 	ov.layer = 3
@@ -273,7 +273,7 @@ def overlayCounter():
 
 	# paste the overlay - 2
 	pad.paste(img2, (0,0))
-	ov = camera.add_overlay(pad.tostring(), size=img2.size)
+	ov = camera.add_overlay(pad.tobytes(), size=img2.size)
 	ov.alpha = 200
 	# layer is 3 because camera preview is on layer 2
 	ov.layer = 3
@@ -283,7 +283,7 @@ def overlayCounter():
 	
 	# paste the overlay - 1
 	pad.paste(img3, (0,0))
-	ov = camera.add_overlay(pad.tostring(), size=img3.size)
+	ov = camera.add_overlay(pad.tobytes(), size=img3.size)
 	ov.alpha = 200
 	# layer is 3 because camera preview is on layer 2
 	ov.layer = 3
