@@ -1,10 +1,23 @@
 # coding=utf-8
 
-import picamera
+import sys
+# testing for libraries
+try:
+    import picamera
+except ImportError:
+    print ("Picamera Python module is not installed")
+    print ("Just exec sudo apt-get install python-picamera")
+    sys.exit()
+
 import thread
 import subprocess as sp
 import time
-import PIL
+try:
+    import PIL
+except ImportError:
+    print ("python-pil is not installed")
+    print ("Just exec sudo apt-get install python-pil")
+    sys.exit()
 
 from time import sleep
 from RPi import GPIO
@@ -13,10 +26,19 @@ from PIL import Image
 import threading
 
 # Twitter
-import tweepy
+try:
+    import tweepy
+except ImportError:
+    print ("python-tweepy is not installed")
+    print ("Just exec sudo apt-get install python-tweepy")
 
 # Facebook
-import facebook
+try:
+    import facebook
+except ImportError:
+    print ("Facebook-sdk for python is not installed")
+    print ("Just exec sudo pip install facebook-sdk")
+    sys.exit()
 
 
 # Button to take picture
