@@ -18,11 +18,12 @@ To run it, just
 More information on this project ca be found at (still not working)
 https://blog.whatgeek.com.pt/2017/05/raspberry-pi-photo-booth-with-social-networks-sharing
 
-You can watch a small video of the project here: https://photos.google.com/share/AF1QipOwxhytRgeDRXFwA8Ee42yeQ1euaZ-cLYzybYsmrUi8KKORaJuT7p9L6YDLRAZysg?key=M21aS3pQQjdpRG1kOW1rbjFnOWdjWldQTEpFVGtR
+You can watch a small video of the project here: 
+https://www.youtube.com/watch?v=V5zME-hghag
 
 
-###### Some images of the project ######
-![Raspberry PI Photobooth Front](https://blog.whatgeek.com.pt/wp-content/uploads/2017/03/IMG_20160607_232200.jpg)
+###### Instructable of this project  ######
+[RaspberryPI Photo Camera - MagicBox](https://www.instructables.com/id/RaspberryPI-Photo-Camera-MagicBox/)
 
 **To do**
 
