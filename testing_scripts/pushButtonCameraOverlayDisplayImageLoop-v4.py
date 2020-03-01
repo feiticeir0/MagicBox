@@ -51,10 +51,10 @@ def get_api(cfg):
 # Send to twitter
 def sendToTwitter():
 	cfg = {
-		"consumer_key"		: "6bg881NfPCByZTyi5inL7LGUK",
-		"consumer_secret"	: "EfgpobAjB90PZqV0an4E4ZiB6DlpQKlSiuHZY0YmNQqq7Yr50y",
-		"access_token"		: "258915000-GCnMzq3Ln3UtSEJPFlblj4fM1dqgUaxsme4wOUOm",
-		"access_token_secret"	: "zqGrjh1PEzF1MdoDHfhibMXmfEpDZ3iCdXfcnIkXOYLpy"
+		"consumer_key"		: "",
+		"consumer_secret"	: "",
+		"access_token"		: "",
+		"access_token_secret"	: ""
 	}
 
 	api = get_api(cfg)
@@ -80,8 +80,8 @@ def get_api_facebook(cfg):
 def sendToFacebook():
 	#Values for access
 	cfg = {
-		"page_id"	: "201102193250349",
-		"access_token"	: "EAAZAbZACaEE2YBAF4n2BXasdjaLHJ59QZAwZAEYittunAueZBorC9CDWWy5HQXEKDxjlUxZBb0VRWZCbpa4ZBGZAhbNJRxE57K0AmT2O2yhifZCcJXauXXr0FiOUjbhKf79I0ecTbR3JRvsOqankzxmQWFwhJlONGC0bEZD"
+		"page_id"	: "",
+		"access_token"	: ""
 	}
 
 	api = get_api_facebook(cfg)
