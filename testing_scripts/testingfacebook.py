@@ -13,7 +13,7 @@ def main():
 	#msg = "A testar a Caixa Mágica para o #EI2016"
 	#status = api.put_wall_post(msg)
 	
-	albumid = "406674999728661"
+	albumid = ""
 	
 	# directly on the page
 	api.put_photo(image=open("foto_.jpg","rb"),caption="caption for photo")
