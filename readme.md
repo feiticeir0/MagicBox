@@ -11,21 +11,12 @@ When pressing a button, a countdown appears from 3 to 1. After the countdown, a 
 
 Everything is programmed in *Python* and run without Xorg, just using the Raspberry PI Frame buffer. 
 
-To run it, just
-
-**python RPiPhotoBooth.py**
-
-More information on this project ca be found at (still not working)
-https://blog.whatgeek.com.pt/2017/05/raspberry-pi-photo-booth-with-social-networks-sharing
-
 You can watch a small video of the project here: 
 https://www.youtube.com/watch?v=V5zME-hghag
 
 
-###### Instructable of this project  ######
+## Instructable of this project  
 [RaspberryPI Photo Camera - MagicBox](https://www.instructables.com/id/RaspberryPI-Photo-Camera-MagicBox/)
 
-**To do**
 
-Better readme.md
 
